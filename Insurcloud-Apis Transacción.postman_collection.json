@@ -1,0 +1,727 @@
+{
+	"info": {
+		"_postman_id": "796a2057-0f8b-4b33-9660-73dbcc06a7d4",
+		"name": "Insurcloud-Apis Transacción",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33427837"
+	},
+	"item": [
+		{
+			"name": "Obtener Formulario",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9",
+						"disabled": true
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200",
+						"disabled": true
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ProductsService/api/v1/Product/67f6d49ede5020203e904811/ProductForm/quote",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ProductsService",
+						"api",
+						"v1",
+						"Product",
+						"67f6d49ede5020203e904811",
+						"ProductForm",
+						"quote"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Obtener Formulario",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "accept-language",
+								"value": "en-US,en;q=0.9"
+							},
+							{
+								"key": "origin",
+								"value": "http://localhost:4200"
+							},
+							{
+								"key": "priority",
+								"value": "u=1, i"
+							},
+							{
+								"key": "referer",
+								"value": "http://localhost:4200/"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							},
+							{
+								"key": "sec-fetch-dest",
+								"value": "empty"
+							},
+							{
+								"key": "sec-fetch-mode",
+								"value": "cors"
+							},
+							{
+								"key": "sec-fetch-site",
+								"value": "cross-site"
+							},
+							{
+								"key": "user-agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}/ProductsService/api/v1/Product/67f6d49ede5020203e904811/ProductForm/quote",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"ProductsService",
+								"api",
+								"v1",
+								"Product",
+								"67f6d49ede5020203e904811",
+								"ProductForm",
+								"quote"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/html"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Last-Modified",
+							"value": "Mon, 05 May 2025 14:42:31 GMT"
+						},
+						{
+							"key": "Accept-Ranges",
+							"value": "bytes"
+						},
+						{
+							"key": "ETag",
+							"value": "\"d9f550eecbbddb1:0\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "Server",
+							"value": "Microsoft-IIS/10.0"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "ASP.NET"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 05 May 2025 15:48:07 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "461"
+						}
+					],
+					"cookie": [],
+					"body": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"/><title>Insurcloud Aseguradoras</title><base href=\"/\"/><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/><link rel=\"icon\" type=\"image/x-icon\" href=\"favicon.ico\"/><link href=\"https://fonts.cdnfonts.com/css/montserrat\" rel=\"stylesheet\"/><link rel=\"stylesheet\" href=\"styles.css\"></head><body><app-root/><script src=\"runtime.js\" type=\"module\"></script><script src=\"polyfills.js\" type=\"module\"></script><script src=\"scripts.js\" defer></script><script src=\"vendor.js\" type=\"module\"></script><script src=\"main.js\" type=\"module\"></script></body>\r\n</html>\r\n"
+				}
+			]
+		},
+		{
+			"name": "Cotizar",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"quote\": { // Información básica de la cotización.\r\n        \"id\": null,\r\n        \"quoteNumber\": null,\r\n        \"brokerInfo\": { // Información del intermediario\r\n            \"userID\": \"66c5fd4238d9c7122e4b3a04\",\r\n            \"userType\": {\r\n                \"id\": \"66b0f9686772ec341fb2ed79\",\r\n                \"name\": \"Aseguradora\",\r\n                \"code\": \"insuranceCompany\",\r\n                \"icon\": \"domain\",\r\n                \"color\": \"accent-bg\"\r\n            },\r\n            \"username\": \"gpitt\", // Usuario que la realizo\r\n            \"firstName\": \"Guillermo\", // Primer nombre del usuario\r\n            \"secondName\": null, // Segundo nombre del usuario\r\n            \"firstSurname\": \"Pitt\", // Primer apellido del usuario\r\n            \"secondSurname\": null, // Segundo apellido del usuario\r\n            \"brokerCode\": \"7151\", // Codigo de intermediario\r\n            \"email\": \"gpitt@bitsion.com\", // Email del usuario\r\n            \"phoneNumber\": \"3513220754\", // Telefono del usuario\r\n            \"path\": { // Origen del usuario\r\n                \"id\": \"658de240bb6bd448895099c7\",\r\n                \"entityPath\": \"-6580798b5ce446028023ce58-\",\r\n                \"entityPathName\": \"-Ficticia Seguros-\",\r\n                \"finalEntityID\": \"6580798b5ce446028023ce58\",\r\n                \"finalEntityName\": \"Ficticia Seguros\",\r\n                \"main\": true\r\n            }\r\n        },\r\n        \"cobrokerageInfo\": null,\r\n        \"quoteInfo\": {\r\n            \"status\": { // Estado \r\n                \"code\": \"draft\",\r\n                \"color\": \"#B7B7B7\",\r\n                \"name\": \"Borrador\",\r\n                \"id\": \"66058aaaf571ccf84d59b6f4\",\r\n                \"percentage\": \"35\"\r\n            },\r\n            \"formId\": \"66c7481984246a3400d2f097\", // Id del formulario\r\n            \"formVersion\": 108, // Version del formulario.\r\n            \"quoteHolder\": {},\r\n            \"product\": {\r\n                \"productID\": \"66c7424d84246a3400d2f052\",\r\n                \"name\": \"Cumplimiento Estatal\"\r\n            },\r\n            \"subBranch\": {\r\n                \"name\": \"Cumplimiento\",\r\n                \"branch\": \"surety\",\r\n                \"subBranchID\": \"66b104546772ec341fb2edb6\"\r\n            }\r\n        }\r\n    },\r\n    \"quoteRuleBatch\": {\r\n        \"id\": null,\r\n        \"quoteId\": null,\r\n        \"policyId\": null,\r\n        \"batch\": []\r\n    },\r\n    \"quoteDetails\": { // Detalles de la cotización.\r\n        \"id\": null,\r\n        \"quoteId\": null,\r\n        \"policyId\": null,\r\n        \"quoteForm\": [\r\n            {\r\n                \"segmentCode\": \"general\", // Segmento correspondiente en el formulario.\r\n                \"form\": { // Datos del formulario (key: valor)\r\n                    \"etqPersona\": null, \r\n                    \"Intermediario\": \"Intermediario Ficticia\",\r\n                    \"TipoPoliza\": \"1\",\r\n                    \"LBLTOMADOR\": null,\r\n                    \"holderDocumentType\": \"DNI\",\r\n                    \"holderDocumentNumber\": \"35198465\",\r\n                    \"holderFirstSurname\": \"RODRIGUEZ\",\r\n                    \"holderSecondSurname\": \"OLIVEROS\",\r\n                    \"holderFirstName\": \"SANDRA\",\r\n                    \"holderSecondName\": null,\r\n                    \"holderAddress\": \"CALLE 43A SUR NO 12A-55\",\r\n                    \"holderCityLabel\": \"67476fd5ad229da179ed05d9\",\r\n                    \"holderStateLabel\": \"DISTRITO CAPITAL\",\r\n                    \"ZonaPostal\": \"6751988d080a6338a8916a72\",\r\n                    \"holderPhone\": \"3213786992\",\r\n                    \"holderEmail\": \"gpitt@bitsion.com\",\r\n                    \"ResponsableDeIvaTomador\": \"2\",\r\n                    \"Tomador_RUTNoAplica\": true,\r\n                    \"lblAsegurado\": null,\r\n                    \"ASEGURADO_DocumentType\": \"DNI\",\r\n                    \"ASEGURADO_DocumentNumber\": \"35198465\",\r\n                    \"ASEGURADO_LastName\": \"RODRIGUEZ\",\r\n                    \"ASEGURADO_LastName2\": \"OLIVEROS\",\r\n                    \"ASEGURADO_FirstName\": \"SANDRA\",\r\n                    \"ASEGURADO_SecondName\": null,\r\n                    \"ASEGURADO_Address\": \"CALLE 43A SUR NO 12A-55\",\r\n                    \"ASEGURADO_CityId\": \"67476fd5ad229da179ed05d9\",\r\n                    \"ASEGURADO_StateId\": \"DISTRITO CAPITAL\",\r\n                    \"ZonaPostalBeneficiario\": \"6751988d080a6338a8916a72\",\r\n                    \"ASEGURADO_WorkPhone\": \"3213786992\",\r\n                    \"Seccional\": null,\r\n                    \"Seccional_tiene\": false\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/RequestService/api/v1/Quote",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"RequestService",
+						"api",
+						"v1",
+						"Quote"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener estados de Cotización",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/SettingsService/api/v1/TradeValueTables/Code/quoteStatuses?origin=658de240bb6bd448895099c7",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"SettingsService",
+						"api",
+						"v1",
+						"TradeValueTables",
+						"Code",
+						"quoteStatuses"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "658de240bb6bd448895099c7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener estados de Polizas",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/SettingsService/api/v1/TradeValueTables/Code/policyStatuses?origin=658de240bb6bd448895099c7",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"SettingsService",
+						"api",
+						"v1",
+						"TradeValueTables",
+						"Code",
+						"policyStatuses"
+					],
+					"query": [
+						{
+							"key": "origin",
+							"value": "658de240bb6bd448895099c7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Emitir",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "content-type",
+						"value": "application/json"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"policy\": { // Información básica de la póliza.\r\n        \"id\": null,\r\n        \"policyNumber\": null,\r\n        \"brokerInfo\": { // Información del intermediario\r\n            \"userID\": \"66c5fd4238d9c7122e4b3a04\",\r\n            \"userType\": {\r\n                \"id\": \"66b0f9686772ec341fb2ed79\",\r\n                \"name\": \"Aseguradora\",\r\n                \"code\": \"insuranceCompany\",\r\n                \"icon\": \"domain\",\r\n                \"color\": \"accent-bg\"\r\n            },\r\n            \"username\": \"gpitt\", // Usuario que la realizo\r\n            \"firstName\": \"Guillermo\", // Primer nombre del usuario\r\n            \"secondName\": null, // Segundo nombre del usuario\r\n            \"firstSurname\": \"Pitt\", // Primer apellido del usuario\r\n            \"secondSurname\": null, // Segundo apellido del usuario\r\n            \"brokerCode\": \"7151\", // Codigo de intermediario\r\n            \"email\": \"gpitt@bitsion.com\", // Email del usuario\r\n            \"phoneNumber\": \"3513220754\", // Telefono del usuario\r\n            \"path\": { // Origen del usuario\r\n                \"id\": \"658de240bb6bd448895099c7\",\r\n                \"entityPath\": \"-6580798b5ce446028023ce58-\",\r\n                \"entityPathName\": \"-Ficticia Seguros-\",\r\n                \"finalEntityID\": \"6580798b5ce446028023ce58\",\r\n                \"finalEntityName\": \"Ficticia Seguros\",\r\n                \"main\": true\r\n            }\r\n        },\r\n        \"cobrokerageInfo\": null,\r\n        \"policyInfo\": {\r\n            \"status\": { // Estado \r\n                \"code\": \"draft\",\r\n                \"color\": \"#B7B7B7\",\r\n                \"name\": \"Borrador\",\r\n                \"id\": \"66058aaaf571ccf84d59b6f1\",\r\n                \"percentage\": \"35\"\r\n            },\r\n            \"formId\": \"66c7481984246a3400d2f097\", // Id del formulario\r\n            \"formVersion\": 108, // Version del formulario.\r\n            \"policyHolder\": {},\r\n            \"product\": {\r\n                \"productID\": \"66c7424d84246a3400d2f052\",\r\n                \"name\": \"Cumplimiento Estatal\"\r\n            },\r\n            \"subBranch\": {\r\n                \"name\": \"Cumplimiento\",\r\n                \"branch\": \"surety\",\r\n                \"subBranchID\": \"66b104546772ec341fb2edb6\"\r\n            },\r\n            \"quote\": null\r\n        }\r\n    },\r\n    \"policyRuleBatch\": {\r\n        \"id\": null,\r\n        \"quoteId\": null,\r\n        \"policyId\": null,\r\n        \"batch\": []\r\n    },\r\n    \"policyDetails\": { // Detalles de la cotización.\r\n        \"id\": null,\r\n        \"quoteId\": null,\r\n        \"policyId\": null,\r\n        \"policyForm\": [\r\n            {\r\n                \"segmentCode\": \"general\", // Segmento correspondiente en el formulario.\r\n                \"form\": { // Datos del formulario (key: valor)\r\n                    \"etqPersona\": null,\r\n                    \"Intermediario\": \"Intermediario Ficticia\",\r\n                    \"TipoPoliza\": \"1\",\r\n                    \"LBLTOMADOR\": null,\r\n                    \"holderDocumentType\": \"DNI\",\r\n                    \"holderDocumentNumber\": \"35198465\",\r\n                    \"holderFirstSurname\": \"RODRIGUEZ\",\r\n                    \"holderSecondSurname\": \"OLIVEROS\",\r\n                    \"holderFirstName\": \"SANDRA\",\r\n                    \"holderSecondName\": null,\r\n                    \"holderAddress\": \"CALLE 43A SUR NO 12A-55\",\r\n                    \"holderCityLabel\": \"67476fd5ad229da179ed05d9\",\r\n                    \"holderStateLabel\": \"DISTRITO CAPITAL\",\r\n                    \"ZonaPostal\": \"6751988d080a6338a8916a72\",\r\n                    \"holderPhone\": \"3213786992\",\r\n                    \"holderEmail\": \"gpitt@bitsion.com\",\r\n                    \"ResponsableDeIvaTomador\": \"2\",\r\n                    \"Tomador_RUTNoAplica\": true,\r\n                    \"lblAsegurado\": null,\r\n                    \"ASEGURADO_DocumentType\": \"DNI\",\r\n                    \"ASEGURADO_DocumentNumber\": \"35198465\",\r\n                    \"ASEGURADO_LastName\": \"RODRIGUEZ\",\r\n                    \"ASEGURADO_LastName2\": \"OLIVEROS\",\r\n                    \"ASEGURADO_FirstName\": \"SANDRA\",\r\n                    \"ASEGURADO_SecondName\": null,\r\n                    \"ASEGURADO_Address\": \"CALLE 43A SUR NO 12A-55\",\r\n                    \"ASEGURADO_CityId\": \"67476fd5ad229da179ed05d9\",\r\n                    \"ASEGURADO_StateId\": \"DISTRITO CAPITAL\",\r\n                    \"ZonaPostalBeneficiario\": \"6751988d080a6338a8916a72\",\r\n                    \"ASEGURADO_WorkPhone\": \"3213786992\",\r\n                    \"Seccional\": null,\r\n                    \"Seccional_tiene\": false\r\n                }\r\n            }\r\n        ]\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/RequestService/api/v1/Policy",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"RequestService",
+						"api",
+						"v1",
+						"Policy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener información de usuario",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "cache-control",
+						"value": "no-cache"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "pragma",
+						"value": "no-cache"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/UsersService/api/v1/User/GetUserData?username=gpitt&entityPathId=658de240bb6bd448895099c7",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"UsersService",
+						"api",
+						"v1",
+						"User",
+						"GetUserData"
+					],
+					"query": [
+						{
+							"key": "username",
+							"value": "gpitt"
+						},
+						{
+							"key": "entityPathId",
+							"value": "658de240bb6bd448895099c7"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Obtener información de producto",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*"
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9"
+					},
+					{
+						"key": "origin",
+						"value": "http://localhost:4200"
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i"
+					},
+					{
+						"key": "referer",
+						"value": "http://localhost:4200/"
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Microsoft Edge\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\""
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0"
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\""
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty"
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors"
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "cross-site"
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/ProductsService/api/v1/Product/66c7424d84246a3400d2f052",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"ProductsService",
+						"api",
+						"v1",
+						"Product",
+						"66c7424d84246a3400d2f052"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://pruinsurcloudns.transfiriendo.com:5042/",
+			"type": "default"
+		}
+	]
+}
